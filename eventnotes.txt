@@ -1,0 +1,17 @@
+The flow is:
+
+When an object enters a snapzone, subscribe the snapzone to the drop event of the object
+
+
+When an object is dropped, broadcast that event by invoking the event
+The snapzone's delegate will then try to snap the object (if the snapzone is empty)
+
+When an object leaves a snapzone, unsubscribe the snapzone from the drop event of the object
+
+When an object is dropped, (subscribe the snapzone to the drop event)
+
+if it's in a snapzone, 
+
+and the snapzone is empty,
+
+snap the object to the snapzone
