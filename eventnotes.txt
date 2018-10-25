@@ -1,5 +1,5 @@
 The flow is:
-
+Yessss
 When an object enters a snapzone, subscribe the snapzone to the drop event of the object
 
 
